@@ -1,5 +1,6 @@
 import React from 'react'
-import SulaimanTodo from './Components/SulaimanTodo'
+import SulaimanTodo from './Components/SulaimanTodo';
+import TusharTodo from './Components/TusharTodo';
 // import First from './Components/First'
 // import Hookw from './Components/Hookw'
 
@@ -7,13 +8,13 @@ import SulaimanTodo from './Components/SulaimanTodo'
 
 const App = () => {
   return (
-    <>
+    <div className="wrapper">
+    <h1>Todo List</h1>
+    {/* <TusharTodo/> */}
 
-    <SulaimanTodo/>
-    
-{/* <Hookw/> */}
-    {/* <First/> */}
-  </>
+    <SulaimanTodo />
+    </div>
+
   )
 }
 
